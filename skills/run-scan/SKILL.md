@@ -50,7 +50,7 @@ The workspace does not need to be on GitHub. You package the source as a ZIP fil
    ```
 9. Call `complete_upload` with the `upload_id`. Strix validates the archive in this step.
 10. Call `create_scan` once with `upload_ids` set to `[upload_id]`. If the user also gave a verified domain, add its `domain_ids` and Strix runs a `live_test` with the source as white-box context.
-11. Delete the local ZIP file. If `create_scan` fails with a 4xx error, call `delete_upload` with the `upload_id`.
+11. Delete the local ZIP file. If `create_scan` fails with a 4xx error, call `delete_upload` with `uploadId` set to the `upload_id`.
 
 ## Scan a domain or a repository
 
