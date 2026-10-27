@@ -1,0 +1,22 @@
+{
+  "name": "strix",
+  "displayName": "Strix",
+  "version": "0.1.0",
+  "description": "Find, fix, and verify security vulnerabilities in the code you write in Cursor. Strix runs AI penetration tests and code security reviews on your workspace, your connected repositories, and your deployed web apps and APIs. Start a scan from the agent, triage the findings, pull a finding's evidence and remediation steps into a code fix, then retest it. Read-only tools have no side effects. Scans spend Strix credits and send traffic to your targets.",
+  "author": {
+    "name": "Strix"
+  },
+  "homepage": "https://strix.ai",
+  "repository": "https://github.com/usestrix/cursor-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "security",
+    "pentest",
+    "penetration-testing",
+    "appsec",
+    "vulnerabilities",
+    "code-review",
+    "mcp"
+  ],
+  "logo": "logo.png"
+}
